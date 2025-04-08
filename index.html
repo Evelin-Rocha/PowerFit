@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>PowerFit</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+
+	<body>
+		<header>
+			<div class="logo">
+				<h1>PowerFit</h1>
+			</div>
+			<nav class="mega-menu">
+				<ul>
+					<li><a href="#">Inicio</a></li>
+					<li class="has-mega">
+						<a href="#">Clases</a>
+						<div class="mega-content">
+							<div class="mega-column">
+								<h4>Fuerza</h4>
+								<ul>
+									<li><a href="#">Musculación</a></li>
+									<li><a href="#">CrossFit</a></li>
+									<li><a href="#">HIIT</a></li>
+								</ul>
+							</div>
+							<div class="mega-column">
+								<h4>Bienestar</h4>
+								<ul>
+									<li><a href="#">Yoga</a></li>
+									<li><a href="#">Pilates</a></li>
+									<li><a href="#">Stretching</a></li>
+								</ul>
+							</div>
+						</div>
+					</li>
+
+					<li><a href="#">Entrenadores</a></li>
+					<li><a href="#">Precios</a></li>
+					<li><a href="#">Contacto</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section class="hero">
+			<video autoplay muted loop playsinline>
+				<source src="video/hero.mp4" type="video/mp4" />
+				Tu navegador no soporta videos HTML5.
+			</video>
+			<div class="overlay"></div>
+			<div class="hero-text">
+				<h2>Entrená tu cuerpo, desbloqueá tu potencial</h2>
+				<p>
+					PowerFit: Tu camino hacia la mejor versión de vos, con los mejores.
+				</p>
+			</div>
+		</section>
+		<section class="clases-destacadas">
+			<h2>Nuestras Clases Destacadas</h2>
+			<div class="cards-container">
+				<div class="card">
+					<img src="img/crossfit.jpg" alt="Clase de CrossFit" />
+					<div class="card-text">
+						<h3>CrossFit</h3>
+						<p>Entrenamiento de alta intensidad para todo el cuerpo.</p>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="img/yoga.jpg" alt="Clase de Yoga" />
+					<div class="card-text">
+						<h3>Yoga</h3>
+						<p>Mejorá tu flexibilidad y concentración con nuestras clases.</p>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="img/spinning.jpg" alt="Clase de Spinning" />
+					<div class="card-text">
+						<h3>Spinning</h3>
+						<p>Cardio al máximo con sesiones energéticas en bici.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="contador">
+			<div class="contador-container">
+				<div class="contador-item">
+					<span class="numero" data-num="500">0</span>
+					<p>Socios satisfechos</p>
+				</div>
+				<div class="contador-item">
+					<span class="numero" data-num="20">0</span>
+					<p>Clases semanales</p>
+				</div>
+				<div class="contador-item">
+					<span class="numero" data-num="10">0</span>
+					<p>Entrenadores certificados</p>
+				</div>
+			</div>
+		</section>
+		<section class="testimonios">
+			<h2>Testimonios</h2>
+			<div class="carousel">
+				<div class="carousel-track">
+					<div class="testimonio">
+						<p>⭐⭐⭐⭐⭐</p>
+						<p>
+							"Me encantan las clases, los entrenadores son increíbles y el
+							ambiente es genial."
+						</p>
+						<p>— María G.</p>
+					</div>
+					<div class="testimonio">
+						<p>⭐⭐⭐⭐⭐</p>
+						<p>
+							"¡Un lugar perfecto para entrenar y conocer gente motivada!
+							Recomendado 100%."
+						</p>
+						<p>— Juan P.</p>
+					</div>
+					<div class="testimonio">
+						<p>⭐⭐⭐⭐⭐</p>
+						<p>
+							"Las rutinas son personalizadas y el progreso se nota rápido."
+						</p>
+						<p>— Carla R.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<script src="main.js"></script>
+	</body>
+	<footer class="footer">
+		<div class="footer-container">
+			<!-- Newsletter -->
+			<div class="footer-newsletter">
+				<h3>Suscribite a nuestro Newsletter</h3>
+				<form>
+					<input type="email" placeholder="Tu correo electrónico" required />
+					<button type="submit">Suscribirme</button>
+				</form>
+			</div>
+
+			<!-- Redes Sociales -->
+			<div class="footer-social">
+				<h3>Seguinos en redes</h3>
+				<div class="social-icons">
+					<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+					<a href="#"><i class="fa-brands fa-instagram"></i></a>
+					<a href="#"><i class="fa-brands fa-twitter"></i></a>
+					<a href="#"><i class="fa-brands fa-youtube"></i></a>
+				</div>
+			</div>
+
+			<!-- Mapa -->
+			<div class="footer-map">
+				<h3>¿Dónde estamos?</h3>
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.9698652551734!2d-58.44620528421852!3d-34.60940546529505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb5fded9b207%3A0xf9fc6e2bbec91ef9!2sParque%20Centenario!5e0!3m2!1ses!2sar!4v1647123911121!5m2!1ses!2sar"
+					width="100%"
+					height="200"
+					style="border: 0"
+					allowfullscreen=""
+					loading="lazy"
+				>
+				</iframe>
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+			<p>&copy; 2025 Gimnasio Xtreme. Todos los derechos reservados.</p>
+		</div>
+	</footer>
+</html>
