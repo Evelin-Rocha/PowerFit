@@ -5,6 +5,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>PowerFit</title>
 		<link rel="stylesheet" href="css/style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+		/>
 	</head>
 
 	<body>
@@ -104,30 +108,40 @@
 		<section class="testimonios">
 			<h2>Testimonios</h2>
 			<div class="carousel">
-				<div class="carousel-track">
-					<div class="testimonio">
-						<p>⭐⭐⭐⭐⭐</p>
+				<input type="radio" name="slider" id="slide1" checked />
+				<input type="radio" name="slider" id="slide2" />
+				<input type="radio" name="slider" id="slide3" />
+
+				<div class="slides">
+					<div class="slide" id="s1">
 						<p>
-							"Me encantan las clases, los entrenadores son increíbles y el
-							ambiente es genial."
+							"Llevaba años intentando ganar masa muscular sin éxito. En
+							PowerFit, con la guía de los profesionales, logré aumentar mi
+							fuerza y mi volumen. ¡Objetivo cumplido!" — Juan P.
 						</p>
-						<p>— María G.</p>
 					</div>
-					<div class="testimonio">
-						<p>⭐⭐⭐⭐⭐</p>
+					<div class="slide" id="s2">
 						<p>
-							"¡Un lugar perfecto para entrenar y conocer gente motivada!
-							Recomendado 100%."
+							"Vine a [Nombre del Gimnasio] buscando mejorar mi condición física
+							general. Ahora me siento mucho más ágil, fuerte y con más
+							resistencia. ¡Definitivamente me ayudaron a alcanzar mis
+							objetivos!" — Laura M.
 						</p>
-						<p>— Juan P.</p>
 					</div>
-					<div class="testimonio">
-						<p>⭐⭐⭐⭐⭐</p>
+					<div class="slide" id="s3">
 						<p>
-							"Las rutinas son personalizadas y el progreso se nota rápido."
+							"Mi meta era correr mi primera maratón. El plan de entrenamiento
+							personalizado de PowerFit y el aliento constante de los
+							instructores hicieron que cruzara la línea de meta. ¡Increíble!" —
+							Pedro A.
 						</p>
-						<p>— Carla R.</p>
 					</div>
+				</div>
+
+				<div class="navigation">
+					<label for="slide1"></label>
+					<label for="slide2"></label>
+					<label for="slide3"></label>
 				</div>
 			</div>
 		</section>
@@ -172,7 +186,7 @@
 		</div>
 
 		<div class="footer-bottom">
-			<p>&copy; 2025 Gimnasio Xtreme. Todos los derechos reservados.</p>
+			<p>&copy; 2025 Gimnasio PowerFit. Todos los derechos reservados.</p>
 		</div>
 	</footer>
 </html>
